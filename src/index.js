@@ -1,6 +1,6 @@
 module.exports = function count(s, pairs) {
   // your implementation
-   let N = 1;
+  let N = 1;
   let arr = [];
   let count = 0;
   let sum = 1;
@@ -48,12 +48,11 @@ let logic = function(arr) {
 }
 
 let evklid = function(a, b) {
-  
+
   while (true) {
     if (b === 0) return a;
     a %= b;
     if (a === 0) return b;
     b %= a;
   }
-}
 }
