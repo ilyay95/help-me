@@ -39,12 +39,12 @@ module.exports = function count(s, pairs) {
 }
 
 let logic = function(arr) {
-  let b00l = true;
+  let bool = true;
 
 	for(let i = 0; i < arr.length; i++) {
-		b00l = b00l && arr[i];
+		bool = bool && arr[i];
 	}
-	return b00l;
+	return bool;
 }
 
 let evklid = function(a, b) {
